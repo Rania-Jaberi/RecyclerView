@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+    <string name="employe">Employe info</string>
+    <string name="name">Name</string>
+    <string name="desc">Description</string>
+    <string name="age">Age</string>
+</resources>

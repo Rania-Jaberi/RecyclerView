@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewId"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="3sp"
+            android:paddingLeft="3sp"
+            android:paddingRight="3sp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="26sp"
+        android:textSize="20sp"
+        android:paddingTop="20sp"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/myinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="26sp"
+        android:paddingTop="56sp"
+        android:text="Details" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:paddingLeft="26sp"
+        android:paddingTop="86sp"
+        android:text="Age" />
+</RelativeLayout>
